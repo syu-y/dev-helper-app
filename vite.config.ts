@@ -1,9 +1,17 @@
+/// <reference types="vitest" />
 import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig } from 'vitest/config';
+import type { UserConfig } from 'vite';
 
-export default defineConfig({
+/** @type {import('@sveltejs/kit').Config} */
+const config: UserConfig = {
 	plugins: [sveltekit()],
 	test: {
-		include: ['src/**/*.{test,spec}.{js,ts}']
+		// testの対象ファイル
+		include: ['test/**/*.{test,spec}.{js,ts}'],
+		globals: true,
+		// testの環境
+		environment: 'jsdom'
 	}
-});
+};
+
+export default config;
