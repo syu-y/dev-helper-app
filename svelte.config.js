@@ -6,6 +6,9 @@ const config = {
 	preprocess: vitePreprocess(),
 	kit: {
 		adapter: adapter(),
+    env: {
+      dir: './.env',
+    },
 		alias: {
 			'@': './src/*',
 			'@routes': './src/routes/*',

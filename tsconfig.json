@@ -1,5 +1,4 @@
 {
-	"estree": "",
 	"extends": "./.svelte-kit/tsconfig.json",
 	"compilerOptions": {
 		"target": "ESNext",
@@ -15,14 +14,12 @@
 		"strict": true,
 		"moduleResolution": "bundler",
 		"isolatedModules": true
-		// "paths": {
-		// 	"@root/*": ["./*"],
-		// 	"@/*": ["./src/*"],
-		// 	"@pages/*": ["./src/pages/*"],
-		// 	"@components/*": ["./src/components/*"],
-		// 	"@lib/*": ["./src/lib/*"],
-		// 	"@utils/*": ["./src/utils/*"]
-		// }
 	},
-	"include": ["src/**/*.ts", "src/**/*.js", "src/**/*.svelte", "test/**/*.ts"]
+	"include": [
+		"src/**/*.ts",
+		"src/**/*.js",
+		"src/**/*.svelte",
+		"test/**/*.ts",
+		".svelte-kit/ambient.d.ts"
+	]
 }
