@@ -11,6 +11,7 @@
 		<li><Link url="/case" label="Case Convert Tools" /></li>
 		<li><Link url="/count" label="Count Tools" /></li>
 		<li><Link url="/naming" label="Naming Tools" /></li>
+		<li><Link url="/mahjong" label="テンパイ練習ツール" /></li>
 	</ul>
 </div>
 
