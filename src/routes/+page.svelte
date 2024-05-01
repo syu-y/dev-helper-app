@@ -12,6 +12,7 @@
 		<li><Link url="/count" label="Count Tools" /></li>
 		<li><Link url="/naming" label="Naming Tools" /></li>
 		<li><Link url="/mahjong" label="テンパイ練習ツール" /></li>
+		<li><Link url="/buckshot" label="Buckshot Rouletteサポートツール" /></li>
 	</ul>
 </div>
 
